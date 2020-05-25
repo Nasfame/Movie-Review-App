@@ -1,0 +1,1 @@
+select rw.name from review as rw join user as u on rw.user_id=u.id where u.name="Hio";

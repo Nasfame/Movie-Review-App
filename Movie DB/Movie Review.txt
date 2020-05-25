@@ -1,0 +1,40 @@
+
+Movie Review (SQL & Schema)
+
+Problem
+
+A user can create multiple movies each can be from a different category, a user can also write as many review he wants to on a certain movie
+Note
+Mention Relationships and Relationship tables in the Schema
+Make another directory inside project as sql and store these files
+BD.W11.6.1_1
+Filename schema.txt
+Schema of all the tables
+D.W11.6.1_1- Filename table_creation.sql
+Tables Creation Queries
+BD.W11.6.1_2
+Filename user_creation.sql
+User Creation Queries
+BD.W11.6.1_3
+Filename movie_creation.sql
+Movie Creation Queries
+BD.W11.6.1_4
+Filename review_creation.sql
+Review Creation Queries
+BD.W11.6.1_5
+Filename category_creation.sql
+Category Creation Queries
+BD.W11.6.2_1
+Filename movie_search.sql
+Find movies of a particular Category.name
+Find movies of a particular Category.name by a particular user.name
+BD.W11.6.2_2
+Filename review_search.sql
+Find review of a particular user.name
+BD.W11.6.2_3
+Filename count_review.sql
+Find the count of all the reviews in different movies
+BD.W11.6.2_4
+Filename category_search.sql
+Find count of all the movies with different categories where the count is more than 10
+Note All the searching operations should be done for partial search.

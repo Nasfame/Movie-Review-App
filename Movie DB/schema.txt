@@ -1,0 +1,26 @@
+	User
+
+id  name
+int varchar
+
+Movies
+
+id  name    user_id category_id
+int varchar int     int
+
+Review
+
+id  name    user_id movie_id
+int varchar int     int
+
+Category
+
+id  name   
+int varchar 
+
+Relationship
+
+User->Movies  One-> Many
+User->Review  One-> Many
+Movies->Review One-> Many
+Movies->Category One-> One

@@ -1,0 +1,1 @@
+select count(*),c.name from category as c join movie as mv  on mv.category_id=c.id group by c.id having count(*)>10;
